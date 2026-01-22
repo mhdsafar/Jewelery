@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Bodoni+Moda:ital,opsz,wght@0,6..96,400..900;1,6..96,400..900&family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Solway:wght@300;400;500;700;800&display=swap');
+@import "tailwindcss";
+
+html,body {
+  overflow-x: hidden;
+  
+}
+.font-Sarlow{
+  font-family: "Solway", serif;
+
+}
+.font-bodoni {
+  font-family: "Bodoni Moda", serif;
+  font-size: 34px;
+}
+.font-playfair {
+  font-family: "Playfair Display", serif;
+  font-size: 38px;
+  font-weight: 600;
+}
+.font-Sans {
+  font-family: "DM Sans", sans-serif;
+}
+/* Hide scrollbar but keep scrolling */
+.scrollbar-hide {
+  -ms-overflow-style: none;     /* IE & Edge */
+  scrollbar-width: none;        /* Firefox */
+}
+
+.scrollbar-hide::-webkit-scrollbar {
+  display: none;                /* Chrome, Safari */
+}
